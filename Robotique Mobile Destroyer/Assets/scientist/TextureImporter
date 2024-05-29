@@ -1,0 +1,71 @@
+import bpy
+import os
+from difflib import SequenceMatcher
+
+def get_best_matching_texture(material_name, texture_dir):
+  """
+  Finds the texture file in the directory that best matches the material name.
+
+  Args:
+      material_name: The name of the material.
+      texture_dir: The directory containing the texture files.
+
+  Returns:
+      The path to the best matching texture file, or None if no match is found.
+  """
+  best_match = None
+  best_score = 0
+  for filename in os.listdir(texture_dir):
+    score = 0
+    # Lowercase both names for case-insensitive matching
+    material_name_lower = material_name.lower()
+    filename_lower = filename.lower()
+    
+    score = SequenceMatcher(None, material_name_lower, filename_lower).ratio()
+    
+    # Update best match if current score is higher
+    if score > best_score:
+      best_match = os.path.join(texture_dir, filename)
+      best_score = score
+  return best_match
+
+def convert_material_to_nodes(material, texture_dir):
+  """
+  Converts a material to use shader nodes and assigns a texture.
+
+  Args:
+      material: The material object to convert.
+      texture_dir: The directory containing the texture files.
+  """
+  # Check if material already uses nodes
+  if not material.use_nodes:
+    material.use_nodes = True
+
+  # Get the node tree
+  node_tree = material.node_tree
+
+  # Create a new image texture node
+  image_node = node_tree.nodes.new('ShaderNodeTexImage')
+  image_node.location = (0, 0)
+
+  # Find the best matching texture file
+  texture_path = get_best_matching_texture(material.name, texture_dir)
+  if texture_path:
+    image_node.image = bpy.data.images.load(texture_path)
+
+  # Connect the image texture to the base color of the principled BSDF
+  principled_bsdf = node_tree.nodes.get('Principled BSDF')
+  if principled_bsdf:
+    base_color_input = principled_bsdf.inputs['Base Color']
+    base_color_input.default_value = (1, 1, 1, 1)  # Set default white color
+    material.node_tree.links.new(image_node.outputs['Color'], base_color_input)
+
+# Get the directory of the blend file
+blend_filepath = bpy.data.filepath
+texture_dir = os.path.dirname(blend_filepath)
+
+# Loop through all materials
+for material in bpy.data.materials:
+  convert_material_to_nodes(material, texture_dir)
+
+print("Materials converted to nodes and assigned textures (if available).")

@@ -1,0 +1,23 @@
+{
+  "player_build_data": [
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "809c01067e9834d6781aa00fce1da852",
+        "build_player": 8158,
+        "preprocess_player": 17,
+        "produce_player_script_assemblies": 1968,
+        "build_scripts_dlls": 267,
+        "writing_asset_files": 2167,
+        "postprocess_built_player": 530,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 234
+          }
+        ]
+      },
+      "version": 1
+    }
+  ]
+}

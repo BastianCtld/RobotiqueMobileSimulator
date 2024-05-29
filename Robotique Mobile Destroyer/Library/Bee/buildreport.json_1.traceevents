@@ -1,0 +1,513 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1717005037891144, "dur": 366076, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005037891323, "dur": 1176, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005037892501, "dur": 21882, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005037914386, "dur": 295846, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005038210235, "dur": 45836, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005038256074, "dur": 1147, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005038258128, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1717005038013504, "dur": 158697, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038014086, "dur": 99357, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038153824, "dur": 5529, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038159355, "dur": 12843, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038160418, "dur": 11500, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038177493, "dur": 986, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1717005038175985, "dur": 2514, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005038258201, "dur": 55, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1717005038229183, "dur":266, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038229452, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1717005038229475, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1717005038229485, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1717005038229577, "dur":208, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038229785, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250575, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250586, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250587, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250591, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250591, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250595, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250598, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250598, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250601, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250601, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250603, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250649, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250651, "dur":0, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250651, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250652, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250653, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250655, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250674, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250675, "dur":1, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250676, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250680, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038250701, "dur":1534, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1717005038229528, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038229791, "dur":1072, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038230863, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717005038230864, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038230918, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717005038230921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038231088, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1717005038231324, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1717005038231716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038231718, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1717005038232361, "dur":1984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038234346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038234466, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038234676, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038234717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038234719, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235112, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235266, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235510, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235549, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235892, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038235965, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236357, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236429, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236693, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038236752, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237138, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237189, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237611, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237666, "dur":170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237842, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038237938, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238185, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238255, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238664, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038238714, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239189, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239252, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239566, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239608, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038239936, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038240056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038240058, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1717005038240528, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1717005038240558, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038240597, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1717005038241175, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717005038241231, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038241299, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1717005038243992, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1717005038243995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1717005038243996, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1717005038244547, "dur":6020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038229531, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038229793, "dur":1090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038230886, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717005038230973, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038231542, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232154, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232548, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232813, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038232872, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233073, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233136, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233414, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233449, "dur":257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233712, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038233753, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234165, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234258, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234527, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234592, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234898, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038234970, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235423, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235507, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235840, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038235942, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038236237, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038236685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038236687, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237027, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237073, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237081, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237351, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237397, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237651, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038237712, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238013, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238079, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238289, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238335, "dur":230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238617, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038238693, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239056, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239094, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239185, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239465, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239502, "dur":348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239864, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239933, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038239992, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1717005038240508, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717005038240536, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038240595, "dur":437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241036, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241040, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241041, "dur":308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241422, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241437, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1717005038241548, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1717005038244562, "dur":5984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038229533, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038229796, "dur":1096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038230893, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1717005038231477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038231744, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1717005038232340, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1717005038232366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038232369, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1717005038232861, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038232919, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233003, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233276, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233431, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233680, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233709, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038233764, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234138, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234173, "dur":322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234499, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234575, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234851, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038234963, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235429, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235530, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235853, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038235899, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236130, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236240, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236510, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236671, "dur":271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038236947, "dur":13414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038250362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1717005038250365, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1717005038250526, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1717005038250527, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038229554, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038229811, "dur":1082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038230894, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1717005038231002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038231328, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1717005038231811, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232196, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232678, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232748, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1717005038232957, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233037, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233333, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233393, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233689, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038233742, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234024, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234114, "dur":268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234385, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038234818, "dur":245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038235066, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038235979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038235980, "dur":334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236317, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236368, "dur":310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236683, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038236775, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237129, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237183, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237542, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237603, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237838, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038237898, "dur":241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238141, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238176, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238197, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238538, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238616, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038238634, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239133, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239203, "dur":261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239466, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239501, "dur":274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038239777, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038240000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038240003, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1717005038240496, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1717005038240526, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038240598, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1717005038241147, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1717005038241188, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038241232, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1717005038243954, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1717005038243958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1717005038243959, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1717005038244543, "dur":6035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038229552, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038229800, "dur":1086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038230886, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717005038232164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038232166, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1717005038232604, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator.exe" }}
+,{ "pid":12345, "tid":5, "ts":1717005038233861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038233862, "dur":286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator.exe" }}
+,{ "pid":12345, "tid":5, "ts":1717005038234151, "dur":5754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717005038239907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038239909, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1717005038240501, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717005038240534, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038240595, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717005038241197, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1717005038241236, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038241303, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1717005038243918, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717005038243923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1717005038243924, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1717005038244534, "dur":6030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038229555, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038229804, "dur":1085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038230890, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1717005038231442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038231451, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1717005038231985, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1717005038232011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038232013, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1717005038232585, "dur":15378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717005038247965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1717005038247967, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1717005038249861, "dur":710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038229553, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038229802, "dur":1066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038230869, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1717005038230903, "dur":40, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038231689, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1717005038232444, "dur":2653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235099, "dur":281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235402, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235470, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235701, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038235736, "dur":273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236013, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236066, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236392, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236438, "dur":267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236709, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038236762, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237166, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237211, "dur":388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237610, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237670, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038237872, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038238182, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038238231, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038238672, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038238746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038238748, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239179, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239238, "dur":329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239571, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239635, "dur":298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038239988, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240032, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240421, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240560, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240597, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240988, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038240994, "dur":389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1717005038241447, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1717005038241524, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1717005038241581, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1717005038244563, "dur":5993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038229557, "dur":255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038229813, "dur":1083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038230896, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717005038230984, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038231392, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1717005038231943, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717005038231948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038231956, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1717005038232433, "dur":7790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717005038240224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038240231, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1717005038240602, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717005038240643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038240644, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241111, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241138, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241198, "dur":320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241577, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1717005038241608, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1717005038244490, "dur":6052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038229568, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038229814, "dur":1067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038230881, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717005038230961, "dur":60, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038231357, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1717005038231985, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1717005038232891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038232893, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233102, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233151, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233517, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038233737, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234016, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234047, "dur":258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234309, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234391, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234626, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038234708, "dur":344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038235055, "dur":6802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038241858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1717005038243874, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1717005038244427, "dur":6125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038229574, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038229816, "dur":1058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038230880, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1717005038230952, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038231489, "dur":789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1717005038232319, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1717005038232344, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038232396, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1717005038232862, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233244, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233490, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233602, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233830, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038233897, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234227, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234272, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234554, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234587, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234589, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234882, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038234975, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235426, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235502, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235807, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038235944, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236236, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236285, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236580, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236685, "dur":275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038236963, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237180, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237542, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237609, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237819, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038237907, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238175, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238220, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238232, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238631, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038238691, "dur":383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239127, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239195, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239204, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239469, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239520, "dur":328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239861, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239913, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038239991, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1717005038240545, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1717005038240594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038240597, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1717005038241190, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1717005038241218, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038241284, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1717005038244033, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717005038244038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1717005038244039, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"roborevenge/RobotiqueMobileSimulator/Robotique Mobile Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1717005038244457, "dur":6098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1717005038253824, "dur":322, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1717005038258266, "dur": 252, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1717005038258109, "dur": 416, "ph": "X", "name": "Write chrome-trace events", "args": {} },
