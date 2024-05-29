@@ -7,6 +7,8 @@ import numpy as np
 
 matplotlib.use('TkAgg')
 
+ICP_ITERATIONS = 30
+
 localhost = '127.0.0.1'
 port = 6340
 client: socket.socket
@@ -94,7 +96,7 @@ def add_to_environment(coord: np.array):
 def compute_local_movement(old_coord: np.array, new_coord: np.array) -> np.array:
     final_matrix = np.eye(3)
     coord2 = new_coord
-    for i in range(30):
+    for i in range(ICP_ITERATIONS):
         pairs = find_closest_pairs(old_coord, coord2)
         iteration_matrix = compute_pair_displacement(old_coord, coord2, pairs)
         old_coord = transform_points(old_coord, iteration_matrix)
