@@ -11,5 +11,5 @@ This simulator was cobbled together in two days, but it allowed us to work on th
 Download the simulator as a Windows executable [here](https://github.com/BastianCtld/RobotiqueMobileSimulator/releases/tag/windows).
 
 # The Python Sample Script
-A Python script is available to test the simulator. It is the "main.py" file available here.
+A Python script is available to test the simulator. It is the "main.py" file available in the root of this repository.
 The script is a very basic implementation of a SLAM algorithm. Add waypoints on the map that opens by simply left-clicking. Once enough (3 by default) points are placed, the rover will start following the path they form.
