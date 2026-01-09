@@ -1,4 +1,5 @@
 # RobotiqueMobileSimulator
+![](simulator.png)
 I created this simulator for a class project. We had lidar-equipped rovers at our disposition and were instructed to create a LABVIEW program to control it in the classroom.
 
 There were only two rovers shared for the class, but everyone of us constantly needed them to test and troubleshoot our control program.
