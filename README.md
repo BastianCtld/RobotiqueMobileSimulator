@@ -7,6 +7,6 @@ To solve this issue, I decided to create a digital twin of the rover in Unity, w
 
 This simulator was cobbled together in two days, but it allowed us to work on the logic of our control programs without needing access to the real rover.
 
-# Le programme Python
+# The Python Sample Script
 A Python script is available to test the simulator. It is the "main.py" file available here.
 The script is a very basic implementation of a SLAM algorithm. Add waypoints on the map that opens by simply left-clicking. Once enough (3 by default) points are placed, the rover will start following the path they form.
